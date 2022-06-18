@@ -12,12 +12,11 @@ import CondicionalComIf from './components/basicos/CondicionalComIf';
 import Pai from './components/comunicacao/direta/Pai';
 import Super from './components/comunicacao/indireta/Super';
 import Input from './components/form/input';
-import Contador from './components/contador/Contador';
 
 export default (props) => (
     <div className='App'>
-        <Card titulo='#10 - Contador' color="#293e6a">
-            <Contador></Contador>
+        <Card titulo='#10 - Contador' color="#293e">
+            <Input></Input>
         </Card>
         <Card titulo='#09 - Input' color="#9c0f5f">
             <Input></Input>

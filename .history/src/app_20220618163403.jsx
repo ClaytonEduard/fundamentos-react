@@ -17,7 +17,7 @@ import Contador from './components/contador/Contador';
 export default (props) => (
     <div className='App'>
         <Card titulo='#10 - Contador' color="#293e6a">
-            <Contador></Contador>
+           <Con>
         </Card>
         <Card titulo='#09 - Input' color="#9c0f5f">
             <Input></Input>
