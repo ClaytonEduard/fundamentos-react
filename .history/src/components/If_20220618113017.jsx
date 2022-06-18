@@ -1,0 +1,1 @@
+// componente sem react

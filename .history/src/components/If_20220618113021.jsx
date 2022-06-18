@@ -1,0 +1,3 @@
+// componente sem react
+
+function
