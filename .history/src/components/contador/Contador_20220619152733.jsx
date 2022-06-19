@@ -1,0 +1,23 @@
+import React, { Component } from 'react'
+
+export default class Contador extends Component {
+
+    stete = {
+        passo: 1,
+        valor: 0
+    }
+
+    render() {
+        return (
+            <div>
+                <h2>Contador</h2>
+                <h4>Display</h4>
+                <div>
+                    <button>+</button>
+                    <td></td>
+                    <button>-</button>
+                </div>
+            </div>
+        )
+    }
+}
